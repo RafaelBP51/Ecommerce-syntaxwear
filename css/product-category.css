@@ -1,0 +1,55 @@
+.categoria-tenis {
+    padding: 40px 0;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-card {
+    position: relative;
+    width: 317px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.category-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.casual {
+    background: url(../Images/products/tênis\ casual.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.esporte {
+    background: url(../Images/products/tênis\ exportivo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.moderno {
+    background: url(../Images/products/tênis\ colorido.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.futurista {
+    background: url(../Images/products/tênis\ futurista.jpg) no-repeat center;
+    background-size: cover;
+}
