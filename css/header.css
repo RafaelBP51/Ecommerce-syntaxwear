@@ -2,10 +2,11 @@
     background-color: #FFFFFF;
     position: fixed;
     z-index: 999;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
+    max-width: calc(1360px - 40px);
     border-radius: 16px;
     padding: 12px 20px;
     display: flex;
@@ -23,7 +24,6 @@
     gap: 2.5rem;
     list-style: none;
     align-items: center;
-   
 }
 
 .nav-center a, .nav-right a {
